@@ -1,5 +1,7 @@
 # SarahLibrary
 > Welcome to Sarah's Library. SarahLibrary. SrhLib.
+> You should use the function named SrhLib() for some more info.
+> Please send me feedback and issues, if you have any!
 
 ## What my library offers
 
