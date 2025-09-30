@@ -3,8 +3,10 @@
 
 ## What my library offers
 
-> Helpful functions like: a better version of print, or a new way to encode strings.
-> Neat lists you can use instead of writing them yourself. (Currently none :p)
+> Helpful functions like:
+> - A better version of print
+> - A new way to encode strings.
+> - Neat lists you can use instead of writing them yourself. ( Currently none :p )
 
 ## License
 
