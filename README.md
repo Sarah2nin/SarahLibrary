@@ -6,6 +6,7 @@
 > Helpful functions, like:
 > - A better version of print
 > - A new way to encode strings.
+
 > Neat lists you can use instead of writing them yourself.
 > - ( Currently none :p )
 >
