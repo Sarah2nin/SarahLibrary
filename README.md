@@ -1,5 +1,5 @@
 # SarahLibrary
-Welcome to Sarah's Library. SarahLibrary. SrhLib.
+> Welcome to Sarah's Library. SarahLibrary. SrhLib.
 
 ## What my library offers
 
@@ -8,4 +8,4 @@ Welcome to Sarah's Library. SarahLibrary. SrhLib.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 or later - see the [LICENSE](LICENSE) file for details.
+> This project is licensed under the GNU General Public License v3.0 or later - see the [LICENSE](LICENSE) file for details.
