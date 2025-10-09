@@ -65,7 +65,7 @@ def SrhLib(InpType = "Nothing."):
 
 
 
-def Simplify(InpString = "Sorry, you didn't add any args to simplify()!", InpPriority = "Str", InpSymbols = True, /):
+def Simplify(InpString = "Sorry, you didn't add any args to simplify()!", InpPriority = "Num", InpSymbols = False, /):
     """
     Simplify() relies on num2words, and word2number. Make sure to install those via pip first.
     >Simplify() simplifies a string to the bare minimum, while still retaining some logic.
