@@ -204,7 +204,7 @@ def CheckType(InpItem):
 
 
 
-def PrettyPrint(Name = "", InpItem = "No variable was given in PrettyPrint()!"):
+def PrettyPrint(InpItem = "No variable was given in PrettyPrint()!", Name = ""):
     """
     PrettyPrint() prints out a variable in a more informative and pretty way.
     (e.g. "Test (Str): Hi" instead of "Test <class 'str'> Hi")
