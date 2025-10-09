@@ -208,9 +208,8 @@ def PrettyPrint(InpItem = "No variable was given in PrettyPrint()!", Name = ""):
     """
     PrettyPrint() prints out a variable in a more informative and pretty way.
     (e.g. "Test (Str): Hi" instead of "Test <class 'str'> Hi")
-    
-    >- Name: The name of the variable you want to write. Defaults to nothing.
-    >- InpItem: The actual variable you want to print. 
+    >- InpItem: The actual variable you want to print.
+    >- Name: The name of the variable you want to write. Defaults to nothing. 
     """
 
     ItemType = CheckType(InpItem)
