@@ -25,7 +25,7 @@
 
 from num2words import num2words
 from word2number import w2n
-import re
+import re, random
 
 #----===|VARIABLES|===----#
 
@@ -225,6 +225,34 @@ def PrettyPrint(InpItem = "No variable was given in PrettyPrint()!", Name = ""):
     
     except:
         print(InpItem)
+
+def FaceMaker():
+    """
+    FaceMaker() returns a randomly
+    generated ASCII face.
+
+    e.g. ( U w U )
+    """
+
+    Side = [
+    "()",
+    "[]",
+    "{}",
+    "||",
+    "《》",
+    ]
+
+    Eye = "*@°•○●oU#=×+8$◇♡¤▪︎☆-"
+
+    Mouth = "-_=~woOuvq□■◇●○•▪︎"
+
+    SideRand = random.randint(0, len(Side))
+    EyeRand = random.randint(0, len(Eye))
+    MouthRand = rabdom.randint(0, len(Mouth))
+
+    Face = f"{Side[SideRand][0]}  {Eye[EyeRand]} {Mouth[MouthRand]} {Eye[EyeRand]} {Side[SideRand][1]"
+
+    return Face
 
 
 
