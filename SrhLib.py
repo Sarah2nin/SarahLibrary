@@ -19,7 +19,7 @@
 #----===|LAST UPDATED|===----#
 
 #Last updated by: Sarahtonin
-#Last updated at: ~13:20 09.10.25
+#Last updated at: ~10:35 24.10.25
 
 #----===|  START  |===----#
 
@@ -62,6 +62,34 @@ def SrhLib(InpType = "Nothing."):
             print(" PrettyPrint()")
         else:
             print("Sorry, SrhLib() didn't recognise what you typed! Check the description of SrhLib() by hovering over the function with your cursor, in your code.")
+
+def Help(InpType = "Nothing."):
+    """
+    SrhLib() prints out all currently available items which matches InpType.
+    (e.g. SrhLib("Functions") would print all available functions)
+    >InpType has three values to choose from;
+    >- 'Variables': Which will list all currently available Variables in SrhLib,
+    >- 'Lists': Which will list all currently available Lists in SrhLib, and
+    >- 'Functions': Which will list all currently available Functions in SrhLib.
+    """
+
+    if not isinstance(InpType, str):
+        print("Sorry, you didn't input a string into SrhLib()!")
+
+    else:
+        if InpType.capitalize() == "Variables":
+            print("The variables in SrhLib are:")
+            print(" SpecialCharacters")
+        elif InpType.capitalize() == "Lists":
+            print("Sorry, Sarah hasn't made any lists, yet!")
+        elif InpType.capitalize() == "Functions":
+            print("The functions in SrhLib are:")
+            print(" Simplify()")
+            print(" Complexify()")
+            print(" CheckType()")
+            print(" PrettyPrint()")
+        else:
+            print("Sorry, Help() didn't recognise what you typed! Check the description of Help() by hovering over the function with your cursor, in your code.")
 
 
 
