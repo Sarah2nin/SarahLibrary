@@ -242,18 +242,20 @@ def FaceMaker():
     "《》",
     ]
 
-    Eye = "*@°•○●oU#=×+8$◇♡¤▪︎☆-"
+    Eye = "*@°•○●oU#=x+8$◇♡¤▪︎☆-"
 
-    Mouth = "-_=~woOuvq□■◇●○•▪︎"
+    Mouth = "-_=~woOuvq□■◇●○•▪"
 
-    SideRand = random.randint(0, len(Side))
-    EyeRand = random.randint(0, len(Eye))
-    MouthRand = rabdom.randint(0, len(Mouth))
+    SideRand = random.randint(0, len(Side)-1)
+    EyeRand = random.randint(0, len(Eye)-1)
+    MouthRand = random.randint(0, len(Mouth)-1)
 
-    Face = f"{Side[SideRand][0]}  {Eye[EyeRand]} {Mouth[MouthRand]} {Eye[EyeRand]} {Side[SideRand][1]"
+    Face = f"{Side[SideRand][0]} {Eye[EyeRand]} {Mouth[MouthRand]} {Eye[EyeRand]} {Side[SideRand][1]}"
 
     return Face
 
 
 
 #----===|   END   |===----#
+
+print(FaceMaker())
